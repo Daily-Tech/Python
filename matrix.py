@@ -29,10 +29,10 @@ def sub(A,B):
         output.append(row)
     return output
 
-#method for Multiply two matrix, A and B
+#method for mulply two matrix, A and B
 def mul(A,B):
     output=[]
-    for i in range(len[A]):
+    for i in range(len(A)):
         row=[]
         for j in range(len(A[0])):
             row.append(A[i][j] * B[i][j])
@@ -42,7 +42,7 @@ def mul(A,B):
 #method for Divide two matrix, A by B
 def div(A,B):
     output=[]
-    for i in range(len[A]):
+    for i in range(len(A)):
         row=[]
         for j in range(len(A[0])):
             row.append(A[i][j] / B[i][j])
@@ -76,7 +76,7 @@ print('Display Subtraction of two matrix, B from A :')
 s=sub(A,B)
 print(display(s))
 
-print('Display Multiplication of two matrix, A and B :')
+print('Display mulplication of two matrix, A and B :')
 m=mul(A,B)
 print(display(m))
 
